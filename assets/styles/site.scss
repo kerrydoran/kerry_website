@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+li {
+	list-style: none;
+}
+
+/* Landscape phones and down */
+/*@media (max-width: 480px) {*/
+
+/*}*/
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.container {
+		font-size: 1.5em;
+	}
+
+	.nav {
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		background-color: black
+		color: white;
+		height: 20%;
+	}
+
+	.content {
+		height: 80%;
+		overflow: scroll;
+	}
+
+	ul li{
+		display: inline;
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) {
+/*@media (min-width: 768px) and (max-width: 979px) {*/
+	.nav {
+		height: 100%;
+		position: absolute;
+		width: 250px;
+	}
+
+	ul {
+		position: absolute;
+	    top: 25%;
+	}
+
+
+	.content {
+		position: absolute;
+		height: 100%;
+		max-width: 1000px;
+	    top: 25%;
+		padding-left: 250px;
+
+	}
+/*}*/
+
+/* Large desktop */
+/*@media (min-width: 1200px) {*/
+
+}

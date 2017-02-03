@@ -1,0 +1,46 @@
+html
+    head
+        //- meta(http-equiv="refresh" content="5")
+        meta(name='viewport', content='width=device-width')
+        link(rel='stylesheet', type='text/css', href='/styles/site.css')
+        title
+            | Kerry Doran
+    body
+        .container
+            .nav
+                ul
+                    li
+                        a(href='') about
+                    li
+                        a(href='') articles
+                    li
+                        a(href='') curatorial
+                    li
+                        a(href='') photos
+                    li
+                        a(href='') contact
+            .content
+                p fdsafdsaf
+                p fdsafdsaf
+                p fdsafdsaf
+                p
+                    | fdsafdsafrom simplerouter import Router
+                    | from webob import Response
+                    | def respond(response):
+                    | html_file = open('assets/views/index.html', 'r').read()
+                    | return Response (html_file)
+                    | def serve_asset(response):
+                    | print response
+                    | css_file = open('public/styles/site.css', 'r').read()
+                    | return Response (css_file)
+                    | router = Router()
+                    | router.add_route('/public/{type}/{name}', serve_asset)
+                    | router.add_route('/', respond)
+                    | application = router.as_wsgi
+                    | if __name__=='__main__':
+                    | from wsgiref.simple_server import make_server
+                    | make_server('', 8000, application).serve_forever()
+                    | f
+                p fdsafdsaf
+                p fdsafdsaf
+                p fdsafdsaf Is this working

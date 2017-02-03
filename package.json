@@ -1,0 +1,38 @@
+{
+  "name": "kerry",
+  "version": "1.0.0",
+  "description": "kerry's website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app/app.js",
+    "lint": "jshint --verbose app/*.js app/*/*.js assets/scripts/*.js || true",
+    "css": "cat ./assets/styles/*.scss | node-sass | postcss --use autoprefixer | cleancss -o public/styles/site.css",
+    "js-min": "uglifyjs ./assets/scripts/*.js -m -o ./public/scripts/app.js",
+    "build": "npm run css & npm run js-min",
+    "watch-js": "watch 'npm run js-min' assets/scripts",
+    "watch-scss": "watch 'npm run css' assets/styles",
+    "live-reload": "live-reload --port 9091 public/ assets/views/",
+    "dev": "nodemon & npm run live-reload & npm run watch-js & npm run watch-scss & bash open-browser.sh",
+    "test": "npm run lint && cd test && mocha"
+  },
+  "keywords": [
+    "kerry",
+    "doran"
+  ],
+  "author": "",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "live-reload": "^1.1.0",
+    "mocha": "^3.2.0",
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0",
+    "postcss": "^5.2.11",
+    "uglify": "^0.1.5",
+    "watch": "^1.0.1"
+  }
+}
