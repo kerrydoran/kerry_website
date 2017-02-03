@@ -26,12 +26,13 @@
     "pug": "^2.0.0-beta6"
   },
   "devDependencies": {
+    "autoprefixer": "^6.7.2",
     "jshint": "^2.9.4",
     "live-reload": "^1.1.0",
     "mocha": "^3.2.0",
     "node-sass": "^4.5.0",
     "nodemon": "^1.11.0",
-    "postcss": "^5.2.11",
+    "postcss-cli": "^2.6.0",
     "uglify": "^0.1.5",
     "watch": "^1.0.1"
   }

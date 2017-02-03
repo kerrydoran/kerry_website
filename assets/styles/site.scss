@@ -33,7 +33,7 @@ li {
 		width: 100%;
 		position: absolute;
 		bottom: 0;
-		background-color: black
+		background-color: black;
 		color: white;
 		height: 20%;
 	}
@@ -57,9 +57,13 @@ li {
 		width: 250px;
 	}
 
+	.nav > img {
+		width: 169px;
+	}
+
 	ul {
 		position: absolute;
-	    top: 25%;
+	    bottom: 0;
 	}
 
 
