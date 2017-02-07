@@ -11,8 +11,12 @@ app.set('views', './assets/views');
 app.set('port', process.env.PORT || 3000);
 app.use(express.static(path.join('public')));
 
+app.use('/:section', function(req, res) {
+	res.render(req.params.section);
+});
+
 app.use('/', function(req, res) {
-	res.render('index')
+	res.render('about');
 });
 
 var server = app.listen(app.get('port'), function() {

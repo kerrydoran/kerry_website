@@ -11,37 +11,17 @@ html
                 img(src="https://upload.wikimedia.org/wikipedia/commons/6/68/Justin_Timberlake_signature.svg")
                 ul
                     li
-                        a(href='') about
+                        a(href='/about') about
                     li
-                        a(href='') articles
+                        a(href='/writing') writing
                     li
-                        a(href='') curatorial
+                        a(href='/curating') curating
                     li
-                        a(href='') photos
+                        a(href='/speaking') speaking
                     li
-                        a(href='') contact
+                        a(href='/photos') photos
+                    li
+                        a(href='/contact') contact
             .content
-                p fdsafdsaf
-                p fdsafdsaf
-                p fdsafdsaf
-                p
-                    | fdsafdsafrom simplerouter import Router
-                    | from webob import Response
-                    | def respond(response):
-                    | html_file = open('assets/views/index.html', 'r').read()
-                    | return Response (html_file)
-                    | def serve_asset(response):
-                    | print response
-                    | css_file = open('public/styles/site.css', 'r').read()
-                    | return Response (css_file)
-                    | router = Router()
-                    | router.add_route('/public/{type}/{name}', serve_asset)
-                    | router.add_route('/', respond)
-                    | application = router.as_wsgi
-                    | if __name__=='__main__':
-                    | from wsgiref.simple_server import make_server
-                    | make_server('', 8000, application).serve_forever()
-                    | f
-                p fdsafdsaf
-                p fdsafdsaf
-                p fdsafdsaf Is this working
+                block content
+
