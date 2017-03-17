@@ -14,8 +14,7 @@
     "live-reload": "live-reload --port 9091 public/ assets/views/",
     "dev": "nodemon & npm run live-reload & npm run watch-js & npm run watch-scss & bash open-browser.sh",
     "test": "npm run lint && cd test && mocha",
-    "getVersionFont": "git clone git@github.com:brycewilner/Version.git public/fonts/version",
-    "getFreeEditFont": "git clone git@github.com:brycewilner/Free-Edit.git public/fonts/free-edit"
+    "postinstall": "git clone git@github.com:brycewilner/Version.git public/fonts/version && git clone git@github.com:brycewilner/Free-Edit.git public/fonts/free-edit"
   },
   "keywords": [
     "kerry",
@@ -24,6 +23,8 @@
   "author": "",
   "dependencies": {
     "body-parser": "^1.16.0",
+    "clean-css": "^4.0.9",
+    "clean-css-cli": "^4.0.9",
     "express": "^4.14.0",
     "pug": "^2.0.0-beta6"
   },

@@ -70,6 +70,11 @@ a:visited {
 	color: purple;
 }
 
+.signature {
+	width: 150px;
+}
+
+
 @keyframes wavy {
   to {
     background-position: 100% 100%;
@@ -114,10 +119,6 @@ a:visited {
 		height: 100%;
 		position: absolute;
 		width: 250px;
-	}
-
-	.nav > img {
-		width: 169px;
 	}
 
 	ul {
