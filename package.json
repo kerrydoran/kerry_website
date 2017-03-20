@@ -26,7 +26,8 @@
     "clean-css": "^4.0.9",
     "clean-css-cli": "^4.0.9",
     "express": "^4.14.0",
-    "pug": "^2.0.0-beta6"
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "^2.4.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
