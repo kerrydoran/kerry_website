@@ -83,10 +83,7 @@ module.exports = {
 		title: 'Emilio Bianchic: Nailture',
 		gallery: 'Postmasters Gallery, New York',
 		images: [
-			'bianchic_1.jpg',
 			'bianchic_2.jpg',
-			'bianchic_3.jpg',
-			'bianchic_4.jpg',
 			'bianchic_5.jpg',
 			'bianchic_6.jpg'
 		],
