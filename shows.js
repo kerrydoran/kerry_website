@@ -95,12 +95,5 @@ module.exports = {
 			url: 'http://www.leonardo.info/reviews/oct2011/amerika_baetens.php'
 		}]
 	}
-}
 
-
-
-
-
-
-
-
+};
