@@ -25,13 +25,13 @@ module.exports = {
 		title: 'Kisses Kisses',
 		gallery: 'bitforms gallery, New York',
 		images: [
-			'kanarek_1',
-			'kanarek_2',
-			'kanarek_3',
-			'kanarek_4',
-			'kanarek_5',
-			'kanarek_6',
-			'kanarek_7'
+			'kanarek_1.jpg',
+			'kanarek_2.jpg',
+			'kanarek_3.jpg',
+			'kanarek_4.jpg',
+			'kanarek_5.jpg',
+			'kanarek_6.jpg',
+			'kanarek_7.jpg'
 		],
 		link: 'http://www.bitforms.com/exhibitions/kanarek-2016',
 		press: [{
@@ -49,14 +49,14 @@ module.exports = {
 		title: 'Sara Ludy: Subsurface Hell',
 		gallery: 'bitforms gallery, New York',
 		images: [
-			'ludy_1',
-			'ludy_2',
-			'ludy_3',
-			'ludy_4',
-			'ludy_5',
-			'ludy_6',
-			'ludy_7',
-			'ludy_8'
+			'ludy_1.jpg',
+			'ludy_2.jpg',
+			'ludy_3.jpg',
+			'ludy_4.jpg',
+			'ludy_5.jpg',
+			'ludy_6.jpg',
+			'ludy_7.jpg',
+			'ludy_8.jpg'
 		],
 		link: 'http://www.bitforms.com/exhibitions/ludy-2016',
 		press: [{
@@ -83,12 +83,12 @@ module.exports = {
 		title: 'Emilio Bianchic: Nailture',
 		gallery: 'Postmasters Gallery, New York',
 		images: [
-			'bianchic_1',
-			'bianchic_2',
-			'bianchic_3',
-			'bianchic_4',
-			'bianchic_5',
-			'bianchic_6'
+			'bianchic_1.jpg',
+			'bianchic_2.jpg',
+			'bianchic_3.jpg',
+			'bianchic_4.jpg',
+			'bianchic_5.jpg',
+			'bianchic_6.jpg'
 		],
 		link: 'http://www.postmastersart.com/archive/nailture15/nailture15.html',
 		press: [{
