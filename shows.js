@@ -73,7 +73,7 @@ module.exports = {
 			url: 'http://hyperallergic.com/272392/turning-the-digital-into-the-material-with-feng-shui/'
 		}, {
 			text: 'Modern Painters',
-			url: ''
+			url: '/2016_ludy.pdf'
 		}, {
 			text: 'NewHive',
 			url: 'https://newhive.com/b/this-week-in-net-art-11/'
