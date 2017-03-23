@@ -1,6 +1,7 @@
 module.exports = {
 	reas: {
-		title: 'Casey Reas: There\'s No Distance' ,
+		pretitle: 'Casey Reas: ',
+		title: 'There\'s No Distance' ,
 		gallery: 'bitforms gallery, New York',
 		images: [
 			'reas_1.jpg',

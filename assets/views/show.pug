@@ -2,8 +2,8 @@ extends index
 
 block content
 	div 
-		em
-			a(href="#{link}")= title
+		a(href="#{link}")= pretitle
+			em= title
 	div #{gallery}
 	br
 	each img in images
