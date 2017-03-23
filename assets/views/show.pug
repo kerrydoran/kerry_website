@@ -6,8 +6,8 @@ block content
 			a(href="#{link}")= title
 	div #{gallery}
 	br
-	//- each img in images
-	//- 	img(src="#{img}")
+	each img in images
+		img(src='/images/' + img)
 	div PRESS
 	each item in press
 		div

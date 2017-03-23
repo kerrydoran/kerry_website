@@ -2,6 +2,13 @@ module.exports = {
 	reas: {
 		title: 'Casey Reas: There\'s No Distance' ,
 		gallery: 'bitforms gallery, New York',
+		images: [
+			'reas_1.jpg',
+			'reas_2.jpg',
+			'reas_3.jpg',
+			'reas_4.jpg',
+			'reas_5.jpg'
+		],
 		link: 'http://www.bitforms.com/exhibitions/reas-2016',
 		press: [{
 			text: 'Artspace',
@@ -17,6 +24,15 @@ module.exports = {
 	kanarek: {
 		title: 'Kisses Kisses',
 		gallery: 'bitforms gallery, New York',
+		images: [
+			'kanarek_1',
+			'kanarek_2',
+			'kanarek_3',
+			'kanarek_4',
+			'kanarek_5',
+			'kanarek_6',
+			'kanarek_7'
+		],
 		link: 'http://www.bitforms.com/exhibitions/kanarek-2016',
 		press: [{
 			text: 'Artspace',
@@ -32,6 +48,16 @@ module.exports = {
 	ludy: {
 		title: 'Sara Ludy: Subsurface Hell',
 		gallery: 'bitforms gallery, New York',
+		images: [
+			'ludy_1',
+			'ludy_2',
+			'ludy_3',
+			'ludy_4',
+			'ludy_5',
+			'ludy_6',
+			'ludy_7',
+			'ludy_8'
+		],
 		link: 'http://www.bitforms.com/exhibitions/ludy-2016',
 		press: [{
 			text: 'ArtFCity',
@@ -56,6 +82,14 @@ module.exports = {
 	bianchic: {
 		title: 'Emilio Bianchic: Nailture',
 		gallery: 'Postmasters Gallery, New York',
+		images: [
+			'bianchic_1',
+			'bianchic_2',
+			'bianchic_3',
+			'bianchic_4',
+			'bianchic_5',
+			'bianchic_6'
+		],
 		link: 'http://www.postmastersart.com/archive/nailture15/nailture15.html',
 		press: [{
 			text: 'art21 magazine',
@@ -74,6 +108,7 @@ module.exports = {
 	performingthetext: {
 		title: '/Performing the Text',
 		gallery: 'NewHive',
+		images: [],
 		link: 'https://newhive.com/kerry/-performing-the-text',
 		press: [{
 			text: 'Rhizome',
@@ -83,6 +118,7 @@ module.exports = {
 	remixthebook: {
 		title: 'remixthebook',
 		gallery: 'Social Media Curator for remixthebook.com',
+		images: [],
 		link: 'http://www.remixthebook.com/',
 		press: [{
 			text: 'Art Monthly',
