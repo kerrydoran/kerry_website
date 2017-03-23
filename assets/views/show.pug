@@ -1,0 +1,14 @@
+extends index
+
+block content
+	div 
+		em
+			a(href="#{link}")= title
+	div #{gallery}
+	br
+	//- each img in images
+	//- 	img(src="#{img}")
+	div PRESS
+	each item in press
+		div
+			a(href="#{item.url}")= item.text

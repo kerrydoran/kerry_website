@@ -31,7 +31,7 @@ module.exports = {
 	},
 	ludy: {
 		title: 'Sara Ludy: Subsurface Hell',
-		gallery: 'bitforms gallery, New York'
+		gallery: 'bitforms gallery, New York',
 		link: 'http://www.bitforms.com/exhibitions/ludy-2016',
 		press: [{
 			text: 'ArtFCity',
@@ -88,4 +88,5 @@ module.exports = {
 			text: '',
 			url: ''
 		}]
+	}
 };
