@@ -13,8 +13,7 @@
     "watch-scss": "watch 'npm run css' assets/styles",
     "live-reload": "live-reload --port 9091 public/ assets/views/",
     "dev": "nodemon & npm run live-reload & npm run watch-js & npm run watch-scss & bash open-browser.sh",
-    "test": "npm run lint && cd test && mocha",
-    "postinstall": "git clone git@github.com:brycewilner/Version.git public/fonts/version && git clone git@github.com:brycewilner/Free-Edit.git public/fonts/free-edit"
+    "test": "npm run lint && cd test && mocha"
   },
   "keywords": [
     "kerry",

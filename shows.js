@@ -31,7 +31,7 @@ module.exports = {
 	},
 	ludy: {
 		title: 'Sara Ludy: Subsurface Hell',
-		gallery: 'bitforms gallery, New York'
+		gallery: 'bitforms gallery, New York',
 		link: 'http://www.bitforms.com/exhibitions/ludy-2016',
 		press: [{
 			text: 'ArtFCity',
@@ -58,34 +58,49 @@ module.exports = {
 		gallery: 'Postmasters Gallery, New York',
 		link: 'http://www.postmastersart.com/archive/nailture15/nailture15.html',
 		press: [{
-			text: '',
-			url: ''
+			text: 'art21 magazine',
+			url: 'http://magazine.art21.org/2015/09/22/how-to-be-happy-an-art-guide/#.WMh-6RLyuRs'
 		}, {
-			text: '',
-			url: ''
+			text: 'ArtFCity',
+			url: 'http://artfcity.com/2015/07/21/this-weeks-must-see-art-events-melon-bra-and-digital-nails/'
+		}, {
+			text: 'artnet',
+			url: 'https://news.artnet.com/market/ben-davis-selects-20-memorable-new-york-gallery-shows-year-364235'
+		}, {
+			text: 'ARTnews',
+			url: 'http://www.artnews.com/2015/07/20/9-art-events-to-attend-in-new-york-city-this-week-27/'
 		}]
 	},
-	showName: {
-		title: 'text here',
-		gallery: 'text here',
-		link: '',
+	performingthetext: {
+		title: '/Performing the Text',
+		gallery: 'NewHive',
+		link: 'https://newhive.com/kerry/-performing-the-text',
 		press: [{
-			text: '',
-			url: ''
-		}, {
-			text: '',
-			url: ''
+			text: 'Rhizome',
+			url: 'http://rhizome.org/editorial/2015/may/20/dont-fight-it-performing-text/'
 		}]
 	},
-	showName: {
-		title: 'text here',
-		gallery: 'text here',
-		link: '',
+	remixthebook: {
+		title: 'remixthebook',
+		gallery: 'Social Media Curator for remixthebook.com',
+		link: 'http://www.remixthebook.com/',
 		press: [{
-			text: '',
-			url: ''
+			text: 'Art Monthly',
+			url: 'http://www.artmonthly.co.uk/magazine/site/issue/february-2012'
 		}, {
-			text: '',
-			url: ''
+			text: 'Furtherfield',
+			url: 'http://www.furtherfield.org/features/reviews/remixthebook-everything-all-once'
+		}, {
+			text: 'Leonardo',
+			url: 'http://www.leonardo.info/reviews/oct2011/amerika_baetens.php'
 		}]
-};
+	}
+}
+
+
+
+
+
+
+
+
