@@ -49,27 +49,6 @@ li {
 	padding-bottom: 8px;
 }
 
-a {
-	text-decoration: none;
-	animation: wavy 2s linear infinite;
-	animation-play-state: paused;
-
-	padding-bottom: 9px;
-	background-position: 0 100%;
-	background-size: 230px;
-	background-repeat: repeat-x;
-}
-
-a:hover {
-	color: red;
-	background-image: url("http://uploads.webflow.com/56d8a8f1100bc1bb7928eebd/5831d10096c13a1f491ac02d_wavy-k.png");
-	animation-play-state: running;
-}
-
-a:visited {
-	color: purple;
-}
-
 .signature {
 	width: 150px;
 }
