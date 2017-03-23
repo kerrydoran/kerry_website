@@ -14,7 +14,6 @@ app.set('port', process.env.PORT || 3000);
 app.use(favicon(__dirname + '/assets/images/text-cursor2.gif'));
 app.use(express.static(path.join('public')));
 
-
 app.use('/curating/:show', function(req, res) {
 	res.render('show', shows[req.params.show]);
 });
