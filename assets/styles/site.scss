@@ -18,7 +18,6 @@
        url('/fonts/free-edit/Free\ Edit\ WebFont\ Kit/freeedit-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-
 body {
   font-family: 'Free-Edit', Fallback, sans-serif;
 }
@@ -91,6 +90,10 @@ li {
 		height: 100%;
 		position: absolute;
 		width: 250px;
+	}
+
+	.curated-image {
+		max-width: 100%;
 	}
 
 	ul {
