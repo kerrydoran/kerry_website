@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
 var favicon = require('serve-favicon');
-
+var shows = require('./shows');
 
 
 var app = express();
@@ -13,6 +13,11 @@ app.set('views', './assets/views');
 app.set('port', process.env.PORT || 3000);
 app.use(favicon(__dirname + '/assets/images/text-cursor2.gif'));
 app.use(express.static(path.join('public')));
+
+
+app.use('/curating/:show', function(req, res) {
+	res.render('show', shows[req.params.show]);
+});
 
 app.use('/:section', function(req, res) {
 	res.render(req.params.section);
