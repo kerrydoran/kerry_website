@@ -33,6 +33,8 @@ These are all things sent directly to the client unchanged. Anything in here, as
 
 ## Development Process
 
+Before you do anyting, run `git pull` to make sure you have the latest code.
+
 The development tools and helpers are a series of [npm](https://www.npmjs.com/) scripts found in `package.json`. You can see them by looking in this folder or by doing `npm run` in your terminal. Each of these scripts does a different little job. Before you start developing, run `npm run dev`. This will start up the scripts so changes you make automatically compile. You can quit this with `ctrl+c`.
 
 ## Git Process
