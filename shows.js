@@ -1,4 +1,28 @@
 module.exports = {
+	altfacts: {
+		pretitle: ' ',
+		title: 'alt-facts' ,
+		gallery: 'Postmasters Gallery, New York',
+		images: [
+			'altfacts_1.jpg',
+			'altfacts_2.jpg',
+			'altfacts_3.jpg',
+			'altfacts_4.png',
+			'altfacts_5.jpg',
+			'altfacts_6.jpg',
+			'altfacts_7.jpg',
+			'altfacts_8.jpg'
+		],
+		link: 'http://www.postmastersart.com/archive/altfacts17/altfacts17direct.htmlhttp://www.postmastersart.com/archive/altfacts17/altfacts17direct.html',
+		press: [{
+			text: 'Artforum',
+			url: 'https://www.artforum.com/picks/id=69641'
+		}, {
+			text: 'ARTnews',
+			url: 'http://www.artnews.com/2017/07/17/9-art-events-to-attend-in-new-york-city-this-week-112/'
+		}]
+	},
+
 	reas: {
 		pretitle: 'Casey Reas: ',
 		title: 'There\'s No Distance' ,
